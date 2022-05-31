@@ -27,7 +27,7 @@ pipeline {
         }
         stage("End"){
             steps{
-                sh "echo 'will miss you singer kk :('"
+                sh "echo 'will miss you singer kk :( :('"
             }
         }
     }
