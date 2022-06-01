@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage("Clean up activity"){
+        stage("Clean up activity for test"){
             steps {
                 deleteDir()
             }
